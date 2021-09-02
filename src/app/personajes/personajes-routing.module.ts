@@ -12,6 +12,7 @@ const routes:Routes= [
   
   {
     path: "",
+    component:HomeComponent,
     children: [
 
        
@@ -27,12 +28,7 @@ const routes:Routes= [
     component:BuscarComponent
 
   },
-  {
-
-    path:"home",
-    component:HomeComponent
-
-  },
+  
   {
 
     path:"listado",
