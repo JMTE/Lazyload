@@ -5,6 +5,7 @@ import { BuscarComponent } from './pages/buscar/buscar.component';
 import { PersonajeComponent } from './pages/personaje/personaje.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
+import { PersonajesRoutingModule } from './personajes-routing.module';
 
 
 
@@ -17,7 +18,8 @@ import { ListadoComponent } from './pages/listado/listado.component';
     ListadoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    PersonajesRoutingModule
   ]
 })
 export class PersonajesModule { }
